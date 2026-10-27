@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460490693412",
+    "project_id": "purescan-ai-app",
+    "storage_bucket": "purescan-ai-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460490693412:android:0dfd5fac72acdfff6771b1",
+        "android_client_info": {
+          "package_name": "com.purescanai.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzp903BJ4D2MMY__5nhINL9hWvOH4l2xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

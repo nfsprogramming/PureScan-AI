@@ -1,0 +1,17 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/api
+/tmp_api
+
+# Environment variables
+.env
+
+# Go workspace
+go.work
+
+# Meilisearch
+meilisearch_data/

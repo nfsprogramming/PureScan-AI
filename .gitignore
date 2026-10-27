@@ -1,0 +1,96 @@
+# ==============================================================================
+# PureScan AI - Root Git Ignore
+# Tailored for Go, Flutter/Dart, React/Vite, Python, and Multi-platform Builds
+# ==============================================================================
+
+# Environment variables & Secrets
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.keystore
+*.jks
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDEs & Editor Configuration
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+firebase-debug.log*
+*.tmp
+*.bak
+
+# Go
+backend/api
+backend/tmp_api
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+meilisearch_data/
+
+# JavaScript / Node / Web
+node_modules/
+dist/
+dist-ssr/
+.vercel/
+.turbo/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/build/
+coverage/
+
+# Android build outputs & configuration
+mobile/android/local.properties
+mobile/android/.kotlin/
+mobile/android/app/debug/
+mobile/android/app/profile/
+mobile/android/app/release/
+
+# iOS / macOS build outputs
+mobile/ios/Flutter/Generated.xcconfig
+mobile/ios/Flutter/ephemeral/
+mobile/ios/Flutter/flutter_export_environment.sh
+mobile/ios/Runner/GeneratedPluginRegistrant.*
+mobile/macos/Flutter/ephemeral/
+
+# Desktop Linux & Windows ephemerals
+mobile/linux/flutter/ephemeral/
+mobile/windows/flutter/ephemeral/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/

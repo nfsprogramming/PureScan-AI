@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: purescan-backend
+    rootDir: backend
+    env: go
+    buildCommand: go build -o api cmd/api/main.go
+    startCommand: ./api
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
